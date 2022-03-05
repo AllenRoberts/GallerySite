@@ -1,5 +1,4 @@
 * {
-
   color: rgb(22, 100, 22);
   font-family: "Dosis", sans-serif;
 }
@@ -8,19 +7,27 @@
   background-color: #33090f;
   height: 100vh;
   width: 100vw;
+  overflow: hidden;
 }
 
-
-.content{
-  padding-top: 5vh;
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: #33090f;
+  justify-content: center;
+  padding-right: 2%;
 }
 
-.footer{
-  padding-top: 1%;
-  direction: ltr
+.subfooter {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
 }
 
-.subfooter{
+.icon{
+  padding-right: 10px;
+  padding-top: 10px;
+  font-size: 24px;
 }
 
 img,
@@ -30,10 +37,15 @@ video {
   display: block;
 }
 
-h1{
+h1 {
+  margin-top: 10px;
   padding-bottom: 3%;
 }
 
-
-
-
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
